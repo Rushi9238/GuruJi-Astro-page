@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .header .innerDiv {
+  border: 2px solid red;
+}
+header .header .innerDiv .upperDiv {
+  display: flex;
+  justify-content: space-between;
+}
+header .header .innerDiv .upperDiv .logo {
+  font-size: 36px;
+}
+header .header .innerDiv .upperDiv .list ul {
+  padding-left: 0;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  list-style-type: none;
+  align-items: center;
+  border: 2px solid red;
+  height: 100%;
+}
+header .header .innerDiv .upperDiv .list ul li {
+  font-size: 22px;
+}
+header .header .innerDiv .lowerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header .innerDiv .lowerDiv .inputBox {
+  border: 1px solid;
+}
+header .header .innerDiv .lowerDiv .inputBox input {
+  width: 340px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+header .header .innerDiv .lowerDiv .inputBox button {
+  padding: 9px 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-right: 20px;
+}
+header .header .innerDiv .lowerDiv .inputBox button .searchIcon {
+  font-size: 28px;
+}
+
+.listSection .innerDiv .cardDiv {
+  border: 2px solid red;
+}
+.listSection .innerDiv .cardDiv .recipeCard {
+  border: 2px solid blue;
+  padding: 10px;
+}
+.listSection .innerDiv .cardDiv .recipeCard .imgDiv {
+  position: relative;
+  border: 1px solid;
+}
+.listSection .innerDiv .cardDiv .recipeCard .imgDiv .textDiv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.listSection .innerDiv .cardDiv .recipeCard .imgDiv .btnDiv {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+   .header{
+    .innerDiv{
+        border: 2px solid red;
+        .upperDiv{
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                font-size: 36px;
+            }
+            .list{
+                ul{
+                    padding-left: 0;
+                    display: flex;
+                    column-gap: 20px;
+                    list-style-type: none;
+                    align-items: center;
+                    border: 2px solid red;
+                    height: 100%;
+                  
+                    li{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .lowerDiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .inputBox{
+                border: 1px solid ;
+                // width: 400px;
+                input{
+                    width: 340px;
+                    padding: 10px 0;
+                    border: none;
+                    outline: none;
+                    padding-left: 20px;
+                }
+                button{
+                    padding: 9px 0;
+                    border: none;
+                    outline: none; 
+                    background-color: transparent;
+                    padding-right: 20px;
+                .searchIcon{
+                    font-size: 28px;
+                }
+                }
+            }
+        }
+    }
+   } 
+}
+.listSection{
+    .innerDiv{
+       .cardDiv{
+        border: 2px solid red;
+           .recipeCard{
+            border: 2px solid blue;
+            padding: 10px;
+            .imgDiv{
+                position: relative;
+                border: 1px solid;
+
+                .textDiv{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+    
+                }
+                .btnDiv{
+                    display: none;
+                }
+                &:hover{
+                    
+                }
+            }
+
+           } 
+
+       } 
+    }
+}
